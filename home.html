@@ -1,0 +1,60 @@
+{% extends 'index.html' %}
+{% load staticfiles %}
+
+{% block title %}Inicio{% endblock %} 
+{% block content %}
+
+<div id="home" class="ct-header ct-header--slider ct-slick-custom-dots">
+		<div class="ct-slick-homepage" data-arrows="true" data-autoplay="false">
+
+			<div class="ct-header tablex item" data-background="{% static 'archivos/img1.jpg' %}">
+				<div class="ct-u-display-tablex">
+					<div class="inner">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-lg-8 slider-inner">
+									<h1 class="big animated">Hola, Soy Jorge y soy Ingeniero de datos ...</h1>
+									<p class="animated">Mi campo laboral es el tratamiento, analisis e ingesta de grandes volumenes de datos (Big data) , Ademas tambien he llevado cursos relacionados a Ciencia de datos.</p>
+									<!--<a class="btn-new from-middle animated" href="{% static 'archivos_jorge/JorgeDuranCV.pdf' %}">Descarga mi CV</a>-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="ct-header tablex item" data-background="{% static 'archivos/img2.jpg' %}">
+				<div class="ct-u-display-tablex">
+					<div class="inner">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-lg-8 slider-inner">
+									<h1 class="big animated">... Pero tambien soy Desarrollador de software ...</h1>
+									<p class="animated">He llevado una vida profesional en la universidad desarrollando software : Aplicaciones web de cualquier tematica.</p>
+									<!--<a class="btn-new from-middle animated" href="#">Descarga mi CV</a>-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="ct-header tablex item" data-background="{% static 'archivos/img3.jpg' %}">
+				<div class="ct-u-display-tablex">
+					<div class="inner">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-lg-8 slider-inner">
+									<h1 class="big animated">... y un pseudo dibujante.</h1>
+									<p class="animated">Dibujar es algo por lo que no he perdido pasion en toda mi vida, para mi es como respirar.</p>
+									<a class="btn-new from-middle animated" href="#">Ir a galeria</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div><!-- .ct-slick-homepage -->
+	</div><!-- .ct-header --> 
+{% endblock %}

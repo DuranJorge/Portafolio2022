@@ -1,0 +1,41 @@
+{% extends 'index.html' %}
+{% load staticfiles %}
+
+{% block title %}Acerca de{% endblock %} 
+{% block content %}
+
+<div id="about" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">                        
+                        <h2>Sobre Jorge</h2>
+                        <p>Me llamo jorge Luis Duran Bustincio soy bachiller en Ingenieria de software de UNMSM. Me considero una persona responsable, honesto, pro activo , puntual , autodidacta. Gusto llevar una buena relacion con el equipo que beneficie hacia el logro de los objetivos. Tengo iniciativa y experiencia en banca ( Banco de comercio y BCP) . Estoy enfocado 100 %  al Big data y ciencia de datos.</p>
+                        <p>Con deseos de adquirir experiencia en empresas de rubros diversos, capacidad de
+							desarrollarme en el campo laboral, relacionarme , establecer una buena comunicación
+							orientada hacia el logro de los objetivos y cumplimiento de metas a plazos respetando
+							las políticas de la empresa. 
+						</p>
+						<p>Algunas de mis aficiones son el dibujar , salir a correr y desarrollar aplicaciones. Bienvenido a mi perfil y si puedo ayudarlo no dude en contactarme. Nos vemos.</p>
+						<ul>
+							<li><b>Sigueme</b></li>
+							<li><a href="https://www.facebook.com/jorgeluis.duranbustincio"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="https://twitter.com/JorgeDuranB7"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/jorge-duran-5a4483132/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							<!--<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>-->
+						</ul>
+
+						<a class="btn btn-dark" href="{% static 'archivos/JorgeDuranCV.pdf' %}">Descarga mi cv</a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="right-box-pro wow fadeIn">
+						<center><img src="{% static 'archivos/img5.png' %}" alt="" class="img-fluid img-rounded fat-ab"></center>
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+{% endblock %}
